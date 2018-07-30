@@ -1,0 +1,10 @@
+name: example1
+channels:
+- defaults
+dependencies:
+  - h5py==2.8.0
+  - pip:
+    - annoy==1.12.0
+    - tqdm==4.24.0
+prefix: ~/anaconda/envs/example1
+
